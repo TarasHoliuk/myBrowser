@@ -12,3 +12,8 @@ export interface FileType extends UnitBase<'FILE'> {
 export interface FolderType extends UnitBase<'FOLDER'> {
   children: Array<FolderType | FileType>;
 }
+
+export interface Coords {
+  x: number;
+  y: number;
+}

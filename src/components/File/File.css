@@ -1,0 +1,6 @@
+.file {
+  display: flex;
+  margin-left: 24px;
+  width: min-content;
+  cursor: default;
+}

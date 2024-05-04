@@ -1,0 +1,18 @@
+.arrow-wrapper {
+  transition: rotate .3s;
+  display: flex;
+}
+
+.arrow-wrapper--is-open {
+  transform: rotate(90deg);
+}
+
+.folder {
+  margin-left: 10px;
+}
+
+.folder-name {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
