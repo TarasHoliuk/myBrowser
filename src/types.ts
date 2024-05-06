@@ -17,3 +17,8 @@ export interface Coords {
   x: number;
   y: number;
 }
+
+export interface FilePathInfo {
+  file: string;
+  folderPath: string;
+}

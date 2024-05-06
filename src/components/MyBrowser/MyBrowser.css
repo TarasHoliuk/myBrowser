@@ -1,0 +1,18 @@
+.folders-list {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.search {
+  --search-padding: 30px;
+  background-color: #242424;
+  border: #eee 1px solid;
+  border-radius: 4px;
+  height: 25px;
+  width: calc(100% - var(--search-padding));
+  color: var(--font-color);
+  background: url(../../assets/search.svg) no-repeat center left;
+  padding-left: var(--search-padding);
+}
